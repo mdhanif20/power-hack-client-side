@@ -14,7 +14,7 @@ const NavigationBar = () => {
           <Toolbar sx={{display:'flex',justifyContent:"space-around"}}>
             <Box>
               {
-                users?.email?  <Link style={{textDecoration:"none",color:"#fff"}} to={"/login"}><Button sx={{color:"#fff",fontSize:"20px"}} onClick={()=>logOut()} color="inherit">Log Out</Button> </Link>: <Link style={{textDecoration:"none",color:"#fff"}} to={"/login"}><Button sx={{color:"#fff",fontSize:"20px"}} color="inherit">Log in</Button></Link> 
+                users?.email?  <Link style={{textDecoration:"none",color:"#fff"}} to={"/login"}><Button sx={{color:"#fff",fontSize:"20px"}} onClick={()=>logOut()} color="inherit">Log Out</Button> </Link>: <Link style={{textDecoration:"none",color:"#fff"}} to={"/login"}><Button sx={{color:"#fff",fontSize:"20px"}} color="inherit">Login</Button></Link> 
               }
             </Box>
             <Box>

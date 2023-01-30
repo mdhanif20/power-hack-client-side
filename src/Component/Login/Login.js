@@ -58,7 +58,7 @@ const Login = () => {
                  
             <Box sx={{width:{md:"50%",xs:"90%"}, padding:{md:"70px 20px",xs:"30px 10px"},boxShadow:" 1px 1px 43px 0px #ebe4e4", margin:"auto"}}>
                  <Typography sx={{pb:2}} variant="h6" gutterBottom component="div">
-                         LogIn
+                         Login
                      </Typography>
 
              { !isLoading &&  <form onSubmit={loginAccount} style={{textAlign:"start"}}>
