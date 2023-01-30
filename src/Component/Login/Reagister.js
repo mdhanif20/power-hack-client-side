@@ -39,11 +39,11 @@ const Reagister = () => {
             .then(data=>{
                 if(data.insertedId){
                     alert("Reagister Successfully!")
+                    getUserToken(user.email)
                 setInterval(() => {
                 }, 18000);
                 }
             })  
-            getUserToken(user.email)
         }
         
         e.preventDefault()
