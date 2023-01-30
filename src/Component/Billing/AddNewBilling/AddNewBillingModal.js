@@ -34,7 +34,7 @@ const AddNewBillingModal = ({openNewBulling,handleNewBullingClose}) => {
       .then(res => res.json())
       .then(data=>{
         if(data.insertedId){
-            alert("Added New Bill")
+            alert("New Bill Added Successfully!")
           setInterval(() => {
           }, 18000);
         }

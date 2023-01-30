@@ -39,7 +39,7 @@ const UpdateBilling = ({openUpdateBillingModal,closeBillingUpdateModal,bill}) =>
             .then(res => res.json())
             .then(data =>{
                 if(data.modifiedCount>0){
-                    alert("Bill Updated Successfully")
+                    alert("Bill Info Updated Successfully")
                 }
             }) 
     }

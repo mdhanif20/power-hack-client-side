@@ -134,7 +134,7 @@ return (
                 <Table sx={{ width: "100%" }} aria-label="simple table">
                     <TableHead style={{position:"sticky",top:0,background:"#696969"}}>
                     <TableRow sx={{}}>
-                            <TableCell sx={{padding:"10px",color:"#fff",fontSize:"18px",fontWeight:"500"}}>Bulling ID</TableCell>
+                            <TableCell sx={{padding:"10px",color:"#fff",fontSize:"18px",fontWeight:"500"}}>Billing ID</TableCell>
                             <TableCell sx={{padding:"10px",color:"#fff",fontSize:"18px",fontWeight:"500"}}>Full Name</TableCell>
                             <TableCell sx={{padding:"10px",color:"#fff",fontSize:"18px",fontWeight:"500"}}>Email</TableCell>
                             <TableCell sx={{padding:"10px",color:"#fff",fontSize:"18px",fontWeight:"500"}}>Phone</TableCell>
